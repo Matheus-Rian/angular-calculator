@@ -1,0 +1,27 @@
+.main-container {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .buttons {
+    display: flex;
+
+    .numbers {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100px;
+
+      button {
+        height: 24px;
+      }
+    }
+
+    .operations {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
