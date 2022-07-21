@@ -1,27 +1,65 @@
-# CalculatorApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
+<h1 style="font-family: roboto;" align='center'>Calculator Angular 🚀</h1>
 
-## Development server
+<h1 style="font-family: roboto;" align='center'>
+  <img src='https://img.shields.io/static/v1?label=Angular&message=14.1.0&color=BD002E&style=for-the-badge&logo=Angular'></img>
+  <img src='https://img.shields.io/static/v1?label=RxJS&message=7.5.0&color=%23B7178C&style=for-the-badge&logo=reactivex'></img>
+  <img src='https://img.shields.io/static/v1?label=TypeScript&message=4.7.2&color=3178C6&style=for-the-badge&logo=typescript'></img>
+</h1>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<h1 style="font-family: roboto;" align='center'>
+  <img src='./src/assets/readme-img.png'></img>
+</h1>
 
-## Code scaffolding
+### :pushpin: Objective
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<p style="font-family: roboto;">Build a calculator using Angular 2+.</p>
 
-## Build
+### :hammer: Requirements
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Before you begin, you will need to have the following tools installed on your machine:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+In addition, it is good to have an editor to work with the code as [VSCode](https://code.visualstudio.com/)
 
-## Running unit tests
+### :rocket: Installing and running
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
 
-## Running end-to-end tests
+# Clone the project:
+$ git clone https://github.com/Matheus-Rian/angular-calculator.git
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+# Enter the directory:
+$ cd angular-calculator
+  
+# Installing dependencies:
+$ npm i
 
-## Further help
+# Running the application in development mode:
+$ npm start
+``` 
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### 🏁 Features 
+
+- [X] Interface
+- [x] Math operations
+- [x] Connection to Github API
+
+### ⚒️ Technology
+
+The following tools were used in the construction of the project:
+
+- [Angular](https://angular.io/)
+- [RxJS](https://rxjs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+
+---
+### :trident: Author 
+
+<a href="https://www.linkedin.com/in/matheus-rian-19b81a183/">
+ <img style="border-radius: 50%;" src="https://avatars0.githubusercontent.com/u/53922139?s=460&u=78916fa8ef722becba440780b3f5756e66507bb7&v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Matheus Rian</b></sub></a> <a href="https://www.linkedin.com/in/matheus-rian-19b81a183/" title="MatheusRian">🚀</a>
+
+ Made with ❤️ by Matheus Rian :point_right: Get in touch!
+
+[![Linkedin Badge](https://img.shields.io/badge/-Matheus-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tgmarinho/)](https://www.linkedin.com/in/matheus-rian-19b81a183/) [![Gmail Badge](https://img.shields.io/badge/-souzamatheusrian@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:souzamatheusrian@gmail.com)](souzamatheusrian@gmail.com)
