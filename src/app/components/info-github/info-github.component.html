@@ -1,0 +1,6 @@
+<div *ngIf="githubInfo.name" class="gh-info-container">
+  <button (click)="handlNavigateGithubUser()" type="button">
+    <span>{{ githubInfo.name }}</span>
+    <img [src]="githubInfo.avatar_url" alt="photo user">
+  </button>
+</div>
