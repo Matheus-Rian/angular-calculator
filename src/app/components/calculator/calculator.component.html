@@ -1,0 +1,18 @@
+<main class="main-container">
+  <div class="display-numbers">
+    <input [value]="displayValueInput" type="text">
+  </div>
+  <div class="buttons">
+    <div class="numbers">
+      <button (click)="resetValue()" type="button">C</button>
+      <button *ngFor="let number of numbers" (click)="handleAddValuesInput(number)" [value]="number" type="button">
+        {{ number }}
+      </button>
+    </div>
+    <div class="operations">
+      <button *ngFor="let operation of operationsValue" (click)="handleAddValuesInput(operation)" type="button">
+        {{ operation }}
+      </button>
+    </div>
+  </div>
+</main>
